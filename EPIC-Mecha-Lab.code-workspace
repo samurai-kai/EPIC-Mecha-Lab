@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "LED_blink",
+			"path": "LED_blink"
+		},
+		{
+			"name": "Speaker_circuit",
+			"path": "Speaker_circuit"
+		}
+	],
+	"settings": {}
+}
