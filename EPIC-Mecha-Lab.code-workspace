@@ -10,6 +10,14 @@
 		{
 			"name": "Speaker_circuit",
 			"path": "Speaker_circuit"
+		},
+		{
+			"name": "Motors_spin",
+			"path": "Motors_spin"
+		},
+		{
+			"name": "Rectangular_path",
+			"path": "Rectangular_path"
 		}
 	],
 	"settings": {}
