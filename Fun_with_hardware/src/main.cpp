@@ -54,7 +54,7 @@ void loop() {
   delay(500); // Shorter delay for responsiveness
 }
 
-// Function definition
+// Function definitions
 float ultrasonic() {
   long duration;
   float distance;
