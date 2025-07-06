@@ -26,6 +26,10 @@
 		{
 			"name": "Movement_functions",
 			"path": "Movement_functions"
+		},
+		{
+			"name": "Fun_with_hardware",
+			"path": "Fun_with_hardware"
 		}
 	],
 	"settings": {}
