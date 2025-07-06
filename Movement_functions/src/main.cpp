@@ -36,8 +36,9 @@ void straight(int seconds) {
   // experimentally determined speed is about 6 inches per second
   int speed = -600; 
   int time = seconds * 1000; // Convert seconds to milliseconds
+
   leftServo.writeMicroseconds(1500 + speed);  
-  rightServo.writeMicroseconds(1520 - speed); 
+  rightServo.writeMicroseconds(1550 - speed); 
   delay(time); 
   leftServo.writeMicroseconds(1500);  
   rightServo.writeMicroseconds(1500);
@@ -51,8 +52,10 @@ void turn(int direction, double seconds) {
     Serial.println("Invalid direction. Use 1 for right or -1 for left.");
     return;
   }
+
   int speed = 600*direction; 
   double time = seconds * 1000; // Convert seconds to milliseconds
+
   leftServo.writeMicroseconds(1500 + speed);  
   rightServo.writeMicroseconds(1500 + speed); 
   delay(time); 
