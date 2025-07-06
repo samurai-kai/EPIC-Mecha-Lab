@@ -22,6 +22,10 @@
 		{
 			"name": "Intro_to_functions",
 			"path": "Intro_to_functions"
+		},
+		{
+			"name": "Movement_functions",
+			"path": "Movement_functions"
 		}
 	],
 	"settings": {}
